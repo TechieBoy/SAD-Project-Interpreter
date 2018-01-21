@@ -1,0 +1,14 @@
+n <- 12;
+bolo "Collatz Sequence for 12: ";
+
+jab-tak n != 1 tab-tak
+    agar n % 2 = 0 toh
+        bolo n;
+        n <- n / 2
+    nahi-toh
+        bolo n;
+        n <- 3*n + 1
+    khatam
+khatam;
+
+bolo n

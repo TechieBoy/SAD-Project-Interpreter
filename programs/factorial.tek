@@ -1,0 +1,8 @@
+n <- 6;
+p <- 1;
+
+jab-tak n > 0 tab-tak
+    p <- p * n;
+    n <- n - 1
+khatam;
+bolo p

@@ -1,0 +1,28 @@
+n <- 1;
+a <- 0;
+
+jab-tak n <= 100 tab-tak
+
+    agar (n % 15 = 0) toh
+        bolo "fizzbuzz";
+        a <- 1
+    khatam;
+
+    agar (n % 3 = 0) aur (a = 0) toh
+        bolo "fizz";
+        a <- 1
+    khatam;
+
+    agar (n % 5 = 0) aur (a = 0) toh
+        bolo "buzz";
+        a <- 1
+    khatam;
+
+    agar a = 0 toh
+        bolo n;
+        a <- 1
+    khatam;
+
+    a <- 0;
+    n <- n + 1
+khatam

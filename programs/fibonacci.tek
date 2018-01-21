@@ -1,0 +1,15 @@
+a <- 0;
+b <- 1;
+n <- 15;
+
+bolo a;
+bolo b;
+
+jab-tak n > 0 tab-tak
+    c <- a + b;
+    bolo c;
+    a <- b;
+    b <- c;
+    n <- n - 1
+khatam
+    
